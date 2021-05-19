@@ -23,4 +23,11 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+@font-face{
+  font-family: "CaviarDreams";
+  src: local("CaviarDreams"),
+  url(../src/assets/Louis George Cafe.ttf) format("truetype");
+}
+
 </style>
