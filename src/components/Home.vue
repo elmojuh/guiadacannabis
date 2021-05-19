@@ -1,11 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>
-      <p>As</p> experiências acumuladas demonstram que o surgimento do comércio virtual
-      ainda não demonstrou convincentemente que vai participar na mudança da
-      gestão inovadora da qual fazemos parte.
-    </h2>
+    <h2></h2>
   </div>
 </template>
 
@@ -24,7 +20,7 @@ h2 {
   margin: 40px;
   font-family: "CaviarDreams", Helvetica, Arial;
 }
-p{
+p {
   font-size: 40px;
 }
 </style>

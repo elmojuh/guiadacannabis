@@ -1,33 +1,32 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <Home msg="Welcome to Your Vue.js App" />
+  <v-app>
+    <v-main>
+      <HelloWorld />
+      <Home msg="Welcome to Your Vue.js App" />
+    </v-main>
+  </v-app>
 </template>
 
 <script>
+import HelloWorld from "./components/HelloWorld.vue";
 import Home from "./components/Home.vue";
 
 export default {
   name: "App",
+
   components: {
+    HelloWorld,
     Home,
   },
+
+  data: () => ({
+    //
+  }),
 };
 </script>
-
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-
-@font-face{
+@font-face {
   font-family: "CaviarDreams";
-  src: local("CaviarDreams"),
-  url(../src/assets/Louis George Cafe.ttf) format("truetype");
+  src: local(../src/assets/fonts/LouisGeorgeCafe.ttf), url() format("truetype");
 }
-
 </style>
