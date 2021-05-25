@@ -3,19 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-<<<<<<< HEAD
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint": "npm run lint:js"
-=======
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "bla": "123456"
->>>>>>> 9a4026ba5c265af2897d0d2e2b4d320c4214fcc9
   },
   "dependencies": {
     "core-js": "^3.9.1",
