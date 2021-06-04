@@ -72,18 +72,23 @@ export default {
       items: [
         {
           icon: "mdi-apps",
-          title: "Welcome",
+          title: "Início",
           to: "/"
         },
         {
           icon: "mdi-chart-bubble",
-          title: "Inspire",
-          to: "/inspire"
+          title: "Boas Vindas",
+          to: "/welcome"
         },
         {
           icon: "mdi-gavel",
           title: "Questoes Legais",
           to: "/questoesLegais"
+        },
+        {
+          icon: "mdi-microphone",
+          title: "Apresentacao",
+          to: "/apresentacao"
         }
       ],
       miniVariant: false,
@@ -91,6 +96,17 @@ export default {
       rightDrawer: false,
       title: "Guia da Cannabis"
     };
+  },
+  head(){
+    return {
+      title: 'Guiazada',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description'
+        }
+      ]
+    }
   }
 };
 </script>
