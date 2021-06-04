@@ -1,8 +1,5 @@
 <template>
   <v-row justify="center" align="center">
-    <NuxtLink to="/">
-      Home page
-    </NuxtLink>
     <v-col cols="12" sm="8" md="6">
       <div class="text-center">
         <logo />
@@ -74,6 +71,7 @@
             Nuxt GitHub
           </a>
         </v-card-text>
+        <NuxtLink to="/inspire">nuxt link</NuxtLink>
         <v-card-actions>
           <v-spacer />
           <v-btn color="primary" nuxt to="/inspire">
