@@ -14,6 +14,7 @@
         maneira correta e sem hipocrisia.
       </v-card-text>
     </v-card>
+    <br />
     <v-btn flat to="/apresentacao" nuxt> Apresentacao </v-btn>
   </div>
 </template>
